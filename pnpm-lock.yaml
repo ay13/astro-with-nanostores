@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@astrojs/renderer-solid': ^0.2.0
+  '@nanostores/persistent': ^0.5.0
   '@nanostores/preact': ^0.1.2
   '@nanostores/react': ^0.1.2
   '@nanostores/vue': ^0.4.1
@@ -9,6 +10,7 @@ specifiers:
   nanostores: ^0.5.6
 
 dependencies:
+  '@nanostores/persistent': 0.5.0_nanostores@0.5.6
   '@nanostores/preact': 0.1.2_nanostores@0.5.6
   '@nanostores/react': 0.1.2_nanostores@0.5.6
   '@nanostores/vue': 0.4.1_nanostores@0.5.6
@@ -417,6 +419,15 @@ packages:
   /@ljharb/has-package-exports-patterns/0.0.1:
     resolution: {integrity: sha512-J4HxcjHI8EzVwXj2HKfZrwnWv4wmOhGxSHyxDQLhiL4ibwRoIkYBqsacZUXFUWQzJtW6QC+FKSNy8HqKjkEqaQ==}
     dev: true
+
+  /@nanostores/persistent/0.5.0_nanostores@0.5.6:
+    resolution: {integrity: sha512-Cs1UwtB9dJXgTMAB2sMIKhLvbQUH20Dt7cX1ggsQUwcAqXzmx8MhwxrECnGvcDoFl7Z+3O40oIP6Htoj9DyTgA==}
+    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
+    peerDependencies:
+      nanostores: ^0.5.0
+    dependencies:
+      nanostores: 0.5.6
+    dev: false
 
   /@nanostores/preact/0.1.2_nanostores@0.5.6:
     resolution: {integrity: sha512-99ngXNZvrma2rGUspzVFxSiXurip8d35Y3FtqcmRqto2MIhMjjwoBHPIaWRFyNTHoiHenyaFioef2BlXA+KVEg==}

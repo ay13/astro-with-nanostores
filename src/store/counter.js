@@ -1,6 +1,6 @@
-import { atom } from 'nanostores';
+import { persistentAtom } from '@nanostores/persistent'
 
-const counter = atom(0);
+const counter = persistentAtom('counter', 0);
 
 function increaseCounter() {
   counter.set(counter.get() + 1);
