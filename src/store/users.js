@@ -1,7 +1,6 @@
-import { createStore, getValue } from 'nanostores';
+import { atom } from 'nanostores';
 
-const users = createStore(() => {
-  users.set([
+const users = atom([
     {
       name: 'Imanadmin',
       age: 2,
@@ -18,10 +17,5 @@ const users = createStore(() => {
       isAdmin: true,
     },
   ]);
-});
 
-const addUser = function addUser(user) {
-  users.set([...getValue(users), user]);
-};
-
-export { users, addUser };
+export { users };

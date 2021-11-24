@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { useStore } from 'nanostores/vue';
+import { useStore } from '@nanostores/vue'
 
 import { admins } from '../store/admins.js';
 import { counter, increaseCounter, decreaseCounter } from '../store/counter.js';
